@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # pycharm   .idea 환경파일 제외
-# .idea
+.idea
