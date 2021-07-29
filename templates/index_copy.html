@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>검색</h1>
+    <form action="/home">
+        <input type="text" name="search">
+        <input type="submit" name="press"/>
+    </form>
+    <h1>입력</h1>
+    <form action="/index01" method="post">
+        {% csrf_token %}
+        <input type="text" name="first">
+        <input type="text" name="second">
+        <input type="text" name="third">
+        <input type="submit" name="press"/>
+    </form>
+    <a href="/home">홈페이지로 이동</a>
+</body>
+</html>
